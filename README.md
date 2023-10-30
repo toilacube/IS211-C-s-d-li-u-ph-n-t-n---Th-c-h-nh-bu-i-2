@@ -4,17 +4,19 @@
 ```
 sqlplus sys as sysdba
 Oracle123456
+```
 
+```
 create user dhqg identifed by dhqg;
 grant connect, dba to dhqg;
 create user sv identifed by sv;
 grant connect, dba to sv;
 create user dhcntt identifed by dhcntt;
 grant connect, dba to dhcntt;
+```
 
+```
 connect dhcntt/dhcntt;
-
-
 ```
 
 #### Create data just for testing database link, not important
@@ -97,10 +99,16 @@ Open `cmd`
 start notepad C:\WINDOWS\system32\drivers\etc\hosts
 ```
 
-Add these lines below the line `127.0.0.1 localhost`
+Add these lines below the line `127.0.0.1 localhost`, replace ip_of_may by the ip address of each machine
 
 ```
 ip_of_mayB mayB
 ip_of_mayA mayA
 ```
 
+
+
+## Note
+
+Each machine must have different **MAC address** and **computer name**
+Network setting of each machine should be `Host only` or `Bridged` 
