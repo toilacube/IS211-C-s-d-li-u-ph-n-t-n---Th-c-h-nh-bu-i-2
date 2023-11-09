@@ -104,7 +104,13 @@ ip_of_mayB mayB
 ip_of_mayA mayA
 ```
 
-
+## Command for testing after finish the configuration
+```
+create public database link dhcntt connect to dhqg identified by dhqg using 'dhcntt';
+```
+```
+select * from dhcntt.sinhvien@dhcntt;
+```
 
 ## Note
 
