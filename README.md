@@ -24,11 +24,11 @@ connect dhcntt/dhcntt;
 #### Create data just for testing database link, not important
 
 ```
+set autocommit on;
 
 CREATE TABLE Khoa (MaKhoa VARCHAR2(50) PRIMARY KEY,MaTruong VARCHAR2(50));
 
 CREATE TABLE Sinhvien (Masv VARCHAR2(8) PRIMARY KEY,Hoten VARCHAR2(50));
-
 
 ```
 
