@@ -9,11 +9,11 @@ Oracle123456
 ```
 
 ```
-create user dhqg identifed by dhqg;
+create user dhqg identified by dhqg;
 grant connect, dba to dhqg;
-create user sv identifed by sv;
+create user sv identified by sv;
 grant connect, dba to sv;
-create user dhcntt identifed by dhcntt;
+create user dhcntt identified by dhcntt;
 grant connect, dba to dhcntt;
 ```
 
@@ -73,7 +73,7 @@ Oracle123456
 ```
 
 ```
-create user dhqg identifed by dhqg;
+create user dhqg identified by dhqg;
 grant connect, dba to dhqg;
 ```
 
