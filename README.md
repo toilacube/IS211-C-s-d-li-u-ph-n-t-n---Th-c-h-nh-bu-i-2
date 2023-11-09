@@ -15,6 +15,8 @@ create user sv identified by sv;
 grant connect, dba to sv;
 create user dhcntt identified by dhcntt;
 grant connect, dba to dhcntt;
+
+grant it it thoi thay d cho
 ```
 
 ```
